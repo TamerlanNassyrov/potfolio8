@@ -75,6 +75,7 @@ nav{
 .h1{
     font-size: 300px;
     display: flex;
+    padding: 0px 850px;
 }
 .h2{
     font-size: 100px;
@@ -92,12 +93,12 @@ nav{
 }
 .prcard{
     margin: 50px 50px;
-    background-color: navajowhite;
+    background-color:  rgb(42, 149, 219);
 }
 .primage{
     height: 400px;
     width: 350px ;
-    background-color: #144169;
+    background-color:rgb(42, 149, 219);
     border-radius: 50px;
     margin: 50px 50px;
     background-color: aqua;
@@ -109,15 +110,15 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin: 100px 0px;
-    padding: 0px 100px;
+    margin: 300px 0px;
+    padding: 0px 850px;
 }
 .achcard{
     margin: 50px 50px;
 }
-.achimage1{
-    width: 400px;
-    height: 50px;
+.achimage{
+    width: 600px;
+    height: 650px;
     border-radius: 50px;
 }
 
@@ -133,14 +134,14 @@ nav{
 }
 .blogcard{
     margin: 50px 50px;
-    background-color: navajowhite;
+    background-color:rgb(42, 149, 219);
 }
 
 
 .blogimage{
     height: 400px;
     width: 350px ;
-    background-color: #144169;
+    background-color: rgb(42, 149, 219)69;
     border-radius: 50px;
     margin: 50px 50px;
     background-color: rgb(42, 149, 219);
@@ -150,6 +151,7 @@ nav{
 #ContactMe{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #Home{
