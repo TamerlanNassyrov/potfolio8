@@ -1,0 +1,159 @@
+.link0{
+    text-decoration: none ;
+    color: navajowhite;
+    margin: 30px 50px;
+    border: 1px;
+    background-color: black;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.link0:hover {
+    color: rgb(70, 202, 151) ;
+    text-decoration: underline ;
+    text-decoration-color: rgb(27, 199, 230) ;
+    cursor: pointer;
+ }
+
+.link:hover {
+   color: rgb(70, 202, 151) ;
+   text-decoration: underline ;
+   text-decoration-color:rgb(27, 199, 230) ;
+   cursor: pointer;
+}
+
+.link:visited{
+    color: rgb(187, 28, 139);
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0 30px;
+    font-weight: 600;    
+}
+
+nav{
+    border: 1px solid navajowhite ;
+    margin: 20px 50px;
+    border-radius: 50px;
+    width: calc(100% - 100px);
+    color: rgb(173, 211, 255);
+    background-color: #1346b3;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 20px;
+}
+
+
+.lefttext{
+    margin-left: 250px;
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+.Home{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.rightpicture{
+    margin-right: 25%;
+    position:relative;
+    left: 700px;
+    bottom: 150px;
+    margin-bottom: 200px;
+    width: 100px;
+    height: 150px;
+}
+.h1{
+    font-size: 300px;
+    display: flex;
+}
+.h2{
+    font-size: 100px;
+}
+
+#MyProjects{
+    justify-content: center;
+    margin: 100px;
+}
+.prcards{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+.prcard{
+    margin: 50px 50px;
+    background-color: navajowhite;
+}
+.primage{
+    height: 400px;
+    width: 350px ;
+    background-color: #144169;
+    border-radius: 50px;
+    margin: 50px 50px;
+    background-color: aqua;
+}
+
+
+#MyAchievements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 100px 0px;
+    padding: 0px 100px;
+}
+.achcard{
+    margin: 50px 50px;
+}
+.achimage1{
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+    
+#MyBlog{
+    justify-content: center;
+    padding: 100px 0px;
+}
+.blogcards{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.blogcard{
+    margin: 50px 50px;
+    background-color: navajowhite;
+}
+
+
+.blogimage{
+    height: 400px;
+    width: 350px ;
+    background-color: #144169;
+    border-radius: 50px;
+    margin: 50px 50px;
+    background-color: rgb(42, 149, 219);
+}
+
+
+#ContactMe{
+    display: flex;
+    justify-content: center;
+}
+
+#Home{
+     display: flex;
+     align-content: center;
+     padding-bottom: 150px;
+}
